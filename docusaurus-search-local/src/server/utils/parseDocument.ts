@@ -2,7 +2,7 @@ import { blogPostContainerID } from "@docusaurus/utils-common";
 import { ParsedDocument, ParsedDocumentSection } from "../../shared/interfaces";
 import { getCondensedText } from "./getCondensedText";
 
-const HEADINGS = "h1, h2, h3";
+const HEADINGS = "h1";
 // const SUB_HEADINGS = "h2, h3";
 
 export function parseDocument($: cheerio.Root): ParsedDocument {

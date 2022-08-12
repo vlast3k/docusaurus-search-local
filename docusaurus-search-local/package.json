@@ -1,9 +1,10 @@
 {
-  "name": "@easyops-cn/docusaurus-search-local",
-  "version": "0.31.0",
+  "name": "@vlast3k/docusaurus-search-local",
+  "version": "2.0.0",
   "description": "An offline/local search plugin for Docusaurus v2",
-  "repository": "https://github.com/easyops-cn/docusaurus-search-local",
-  "homepage": "https://github.com/easyops-cn/docusaurus-search-local",
+  "repository": "https://github.com/vlast3k/docusaurus-search-local",
+  "homepage": "https://github.com/vlast3k/docusaurus-search-local",
+  "author": "vlast3k <vladimir.savchenko@sap.com>",
   "scripts": {
     "start": "concurrently -k -n client,server \"yarn run start:client\" \"yarn run start:server\"",
     "start:client": "tsc --watch --project tsconfig.client.json",
