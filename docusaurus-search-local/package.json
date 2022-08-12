@@ -1,6 +1,6 @@
 {
   "name": "@vlast3k/docusaurus-search-local",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An offline/local search plugin for Docusaurus v2",
   "repository": "https://github.com/vlast3k/docusaurus-search-local",
   "homepage": "https://github.com/vlast3k/docusaurus-search-local",
